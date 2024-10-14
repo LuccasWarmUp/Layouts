@@ -1,0 +1,49 @@
+
+body {
+    background: rgb(56,200,53);
+    background: linear-gradient(180deg, rgba(56,200,53,1) 5%, rgba(38,94,30,1) 75%);
+}
+
+.container {
+    padding: 2.5rem;
+
+    color: var(--background);
+    background: var(--foreground);
+
+    border-radius: 16px;
+    border: 0.2rem solid var(--foreground);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+  
+  
+button {
+    color: var(--foreground);
+    background-color: #0070f3;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #005bb5;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+  
+th {
+    background-color: #f2f2f2;
+}

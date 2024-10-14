@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 7rem;
+    padding: 5rem 5rem 0rem 5rem;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.link {
+    margin: 0rem 1rem;
+    padding: 2rem 1rem 0.5rem 1rem;
+    color: var(--foreground);
+    border-bottom: 0.3rem solid transparent;
+    transition: 0.3s ease-in-out;
+}
+  
+.link:hover {
+    border-bottom: 0.3rem solid
+}
+
+.footer_copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 0.3rem solid;
+    margin-top: 2rem;
+    padding: 1rem;
+}
